@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactsApp.MainPage">
+
+    <StackLayout Padding="10"
+                 Spacing="10">
+        <Label Text="Name" />
+        <Entry Text=""
+               Placeholder="Full Name" />
+
+        <Label Text="Website" />
+        <Entry Text=""
+               Placeholder="Your Website" />
+
+        <StackLayout Orientation="Horizontal"
+                     Spacing="10">
+            <Label Text="Best Friend?" />
+            <Switch/>
+        </StackLayout>
+
+        <Button Text="Open Website" />
+        <Button Text="Save Contact" />
+
+    </StackLayout>
+
+</ContentPage>
